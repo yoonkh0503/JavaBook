@@ -8,7 +8,7 @@ public class ArrayExample6 {
 		int[] numarr = {0,1,2,3,4,5,6,7,8,9};
 		System.out.println(Arrays.toString(numarr));
 		
-		for(int i=0; i<100; i=i+1)
+		for(int i=0; i<1; i=i+1)
 		{
 			int randomnum = (int)(Math.random() * 10); // 0~9중 한 값을 임의로 얻는다.
 			int tmp = numarr[0];
